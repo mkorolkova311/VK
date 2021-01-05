@@ -1,10 +1,10 @@
 package domain;
 
 public class Likes {
-    public int count;
-    public boolean userLikes;
-    public boolean canLike;
-    public boolean canPublish;
+    private int count;
+    private boolean userLikes;
+    private boolean canLike;
+    private boolean canPublish;
 
     public int getCount() {
         return count;
